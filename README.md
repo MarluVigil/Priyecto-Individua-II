@@ -3,28 +3,30 @@
 
 ## Para lograr la columna pred, tuve que realizar los siguientes pasos
 
-* Primer paso:
+**Primer paso:**
 
 Extraer los archivos csv de github, crear DataFrames con pandas y analizar los datos
 
-* Segudo paso:
+**Segudo paso:**
 
 Preprocesamiento de lo datos, limpieza y normalizacion. Los datos nulos fuero reemplazados por el promedio, las columnas que contenian muchos nulos fueron eliminadas del analizis, asi como la que no eran relevantes.
 
-* Tercer paso:
+**Tercer paso:**
 
 Realizar el mapa de correlaciones para verificar las columnas mas utiles.
 
-* Cuarto paso:
+**Cuarto paso:**
 
 Realizar los mismo cambios producidos al archivo test
 
-* Quinto paso:
+**Quinto paso:**
 
 Armar modelo de prediccion, primero un Random Forest y luego un Arbol de Decisiones y verificar la predicción 
 
-* Ultimo paso:
+**Ultimo paso:**
 
 Convertir la prediccion en un DataFrame de una sola columna y guardarlo en csv.
 
-Se podrá ver todos estos paso en el flujo de pipeline
+Se podrá ver todos estos paso en el siguiente flujo de pipeline
+
+<img src = "Flujo_de_pipeline.jpeg" height = 500>
